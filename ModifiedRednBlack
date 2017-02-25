@@ -3,18 +3,17 @@
 /* Backgrounds */
 
 .app,
+.app {
+    background-image: url("https://i.imgur.com/iZtQFTm.jpg") !important;
+    background-size: 1500px 900px !important;
+    background-repeat: no-repeat !important;
+}
+
 .callout-backdrop {
-    background-image: url("https://i.imgur.com/iZtQFTm.jpg");
-    background-size: cover !important;
-    background-position: center !important;
-}
-.bda-backdrop {
-    background: url("https://i.imgur.com/bBFatpQ.png");
-    background-size: cover!important;
-}
-#pubs-container:before {
-	background: url("https://i.imgur.com/NUhSyNd.jpg")!important;
-    background-size: cover!important;
+    opacity:0.9 !important;
+    background: url("https://i.imgur.com/bBFatpQ.png") !important;
+    background-size: 1500px 900px !important;
+    background-repeat: no-repeat !important;
 }
 .layers { 
     background: transparent !important; 
